@@ -6,11 +6,9 @@ const Parent = () => {
     //using the state to dynamicallly pass the values to the context
 
     return (
-        <React.Fragment>
-            <AuthContext.Provider value={{ status: 'success' }}>
-                <Child />
-            </AuthContext.Provider>
-        </React.Fragment>
+        <AuthContext.Provider value={{ status: 'success' }}>
+            <Child />
+        </AuthContext.Provider>
     );
 };
 export default Parent;
