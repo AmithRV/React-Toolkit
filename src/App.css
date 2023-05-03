@@ -1,0 +1,10 @@
+.app{
+    /* border: 1px solid red; */
+    width: calc(100vw - 2px);
+    height: calc(100vh - 2px);
+}
+
+.modal-wrap{
+    border: 2px solid #635959;
+    height: 500px;
+}
